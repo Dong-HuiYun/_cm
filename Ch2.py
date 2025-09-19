@@ -1,8 +1,8 @@
 import math
 
-a = float(input("a: "))
-b = float(input("b: "))
-c = float(input("c: "))
+a = 8.0
+b = 10.0
+c = 15.0
 
 def root(a, b, c):
     judge = b ** 2 - 4 * a * c
