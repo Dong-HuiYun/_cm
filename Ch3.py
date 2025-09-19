@@ -27,7 +27,6 @@ def root3(a, b, c, d):
         root2 = -(u + v)/2 - a1/3 + complex(0, math.sqrt(3)*(u - v)/2)
         root3 = -(u + v)/2 - a1/3 - complex(0, math.sqrt(3)*(u - v)/2)
     elif Δ == 0:
-        # 所有根都是實根，至少有一個重根
         u = (-q / 2)**(1/3)
         root1 = 2 * u - a1 / 3
         root2 = -u - a1 / 3
