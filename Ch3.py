@@ -1,6 +1,11 @@
 import math
 import cmath
 
+a = 1
+b = -6
+c = 11
+d = -6
+
 def root3(a, b, c, d):
     if a == 0:
         return
@@ -35,8 +40,4 @@ def root3(a, b, c, d):
         root2 = m * math.cos((phi + 2*math.pi) / 3) - a1 / 3
         root3 = m * math.cos((phi + 4*math.pi) / 3) - a1 / 3
         print("answer:",(root1, root2, root3))
-a = float(input("a: "))
-b = float(input("b: "))
-c = float(input("c: "))
-d = float(input("d: "))
 root3(a, b, c, d)
