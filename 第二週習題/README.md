@@ -28,4 +28,8 @@ b = FiniteFieldElement(3, 5)
 
 print(a + b)  # 0 (mod 5)
 print(a * b)  # 1 (mod 5)
-print(a / b)  # 4 (mod 5)
+print(a / b)  # 4 (mod 5) 
+```
+
+ ## 6. AI對話連結
+ [ChatGPT](https://chatgpt.com/share/68d5ff5c-23a8-8005-aa36-f8f4de82566a)
