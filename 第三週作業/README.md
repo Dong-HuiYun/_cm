@@ -56,10 +56,15 @@ $(x -h)^2 + (y - k)^2 = r^2$
 
 $
 \Delta = 
+
 \begin{vmatrix}
+
 A_1 & B_1 \\
+
 A_2 & B_2
+
 \end{vmatrix}
+
 $，
 
 $
