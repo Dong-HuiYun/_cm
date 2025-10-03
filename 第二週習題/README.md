@@ -32,4 +32,4 @@ print(a / b)  # 4 (mod 5)
 ```
 
  ## 6. AI對話連結
- [Deepseek](https://chatgpt.com/share/68d5ff5c-23a8-8005-aa36-f8f4de82566a)
+ [Deepseek](https://chat.deepseek.com/share/zlqrxgssw547saaw4n)
