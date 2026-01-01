@@ -1,5 +1,7 @@
 # 期中作業
 
+[csmaca碰撞機率模擬與分析](https://github.com/Dong-HuiYun/_cm/tree/main/%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD)
+
 ### 功能介紹
 
 主要用途：模擬無線網路中（如Wi-Fi）CSMA/CA機制的碰撞機率，並與理論公式進行比較。
@@ -29,6 +31,12 @@
     - 固定競爭窗口 CW = 31（即32個時槽）
 
     - 每個設定進行10,000次模擬
+
+### 圖表分析
+
+![csmaca](../image/csmaca分析圖.png)
+
+**在 CSMA/CA 協議下，碰撞機率隨節點數量增加而上升的趨勢。最關鍵的發現是，通過 10,000 次試驗獲得的模擬數據（藍色圓點）與理論分析（紅色實線）高度吻合，這驗證了理論模型在預測網路效能方面的準確性。**
 
 ### 運用到的數學
 
@@ -67,3 +75,5 @@ $$P(\text{Success}) = \sum_{k=0}^{CW} \left( N \cdot \frac{1}{W} \cdot \left( \f
 ### 參考資料
 
 [google ai studio](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221OlOuVfRKeh85m68PjIrpe0cTiYxlxm8X%22%5D,%22action%22:%22open%22,%22userId%22:%22104108532823114063447%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+
+[manus圖表分析](https://manus.im/share/hUvUgakK3naYHT2SAzsPIH)
