@@ -2,31 +2,31 @@
 
 ## 著作狀態聲明
 
-習題1到3自己完成，並依靠gemini加强理解其中的數學意義。
+習題1到3自己完成，並依靠gemini加强理解其中的數學意義。其餘有依靠ai，並透過問答加以理解其中的意涵。
 
-[期中作業]()
+[期中作業](https://github.com/Dong-HuiYun/_cm/tree/main/%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD)
 
-[習題 1 : 請用程式驗證微積分基本定理](https://github.com/Dong-HuiYun/_cm/blob/main/Ch1.py)
+[習題 1 : 請用程式驗證微積分基本定理](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%BF%92%E9%A1%8C1)
 
-[習題 2 : 請寫程式求解二次多項式的根](https://github.com/Dong-HuiYun/_cm/blob/main/Ch2.py)
+[習題 2 : 請寫程式求解二次多項式的根](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%BF%92%E9%A1%8C2)
 
-[習題 3 : 請寫程式求解三次多項式的根](https://github.com/ccc114a/_cm/issues/3)
+[習題 3 : 請寫程式求解三次多項式的根](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%BF%92%E9%A1%8C3)
 
-[習題 4 : 請寫一個函數 root(c) 求出 n 次多項式的根](https://github.com/Dong-HuiYun/_cm/tree/main/Ch4)
+[習題 4 : 請寫一個函數 root(c) 求出 n 次多項式的根](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%BF%92%E9%A1%8C4)
 
-[第二週習題：有限體](https://github.com/Dong-HuiYun/_cm/blob/main/%E7%AC%AC%E4%BA%8C%E9%80%B1%E7%BF%92%E9%A1%8C/finite.py)
+[第二週習題：有限體](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%AC%AC%E4%BA%8C%E9%80%B1%E7%BF%92%E9%A1%8C)
 
 [第三週習題：幾何學：（點，線，圓）世界的建構](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%AC%AC%E4%B8%89%E9%80%B1%E4%BD%9C%E6%A5%AD)
 
-[第八週習題：機率統計 - 檢定背後的數學原理]()
+[第八週習題：機率統計 - 檢定背後的數學原理](https://gemini.google.com/share/5152a2870b84)
 
 [第九週習題：資訊理論](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%AC%AC%E4%B9%9D%E9%80%B1%E7%BF%92%E9%A1%8C%EF%BC%9A%E8%B3%87%E8%A8%8A%E7%90%86%E8%AB%96)
 
-[第十週習題：線性代數]()
+[第十週習題：線性代數](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%AC%AC%E5%8D%81%E9%80%B1%E7%BF%92%E9%A1%8C%EF%BC%9A%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8)
 
-[第11週習題：請寫出傅立葉正轉換和逆轉換的函數]()
+[第11週習題：請寫出傅立葉正轉換和逆轉換的函數](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%AC%AC11%E9%80%B1%E7%BF%92%E9%A1%8C)
 
-[第13週習題：請寫程式求解常係數齊次常微分方程]()
+[第13週習題：請寫程式求解常係數齊次常微分方程](https://github.com/Dong-HuiYun/_cm/tree/main/%E7%AC%AC13%E9%80%B1%E7%BF%92%E9%A1%8C)
 
 
 ## Gemini提示詞設定
@@ -42,7 +42,7 @@ Please keep the response structure clear and the language concise.
 
 ## 期中作業
 
-[csmaca碰撞機率模擬與分析]()
+[csmaca碰撞機率模擬與分析](https://github.com/Dong-HuiYun/_cm/tree/main/%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD)
 
 ### 功能介紹
 
@@ -115,7 +115,7 @@ $$P(\text{Success}) = \sum_{k=0}^{CW} \left( N \cdot \frac{1}{W} \cdot \left( \f
 
 ## 習題 1 : 請用程式驗證微積分基本定理
 
-[習題 1 : 請用程式驗證微積分基本定理](https://github.com/Dong-HuiYun/_cm/blob/main/Ch1.py)
+![筆記](../image/ch1.jpg)
 
 ### 程式碼説明
 
@@ -157,6 +157,8 @@ $$P(\text{Success}) = \sum_{k=0}^{CW} \left( N \cdot \frac{1}{W} \cdot \left( \f
 
 ## 習題 2 : 請寫程式求解二次多項式的根
 
+![筆記](../image/ch2.jpg)
+
 `root(a,b,c)`函數是利用一元二次方程式求根公式得出其多項式的根，判別式 $\Delta=b^2+4ac$。
 
 - 當$\Delta$大於0時，方程式有兩解
@@ -184,6 +186,9 @@ def root(a, b, c):
 [gemini對話記錄](https://gemini.google.com/share/e01709e79717)
 
 ## 習題 3 : 請寫程式求解三次多項式的根
+
+![筆記](../image/ch3.jpg)
+
 `root3(a, b, c, d)`函數是利用一元二次方程式求根公式得出其多項式的根，判別式 $\Delta = \frac{q^2}{4} + \frac{p^3}{27}$。
 
 - 當$\Delta$大於0時，有一實根、兩個共軛複數根
@@ -214,6 +219,9 @@ $$C = \begin{bmatrix}
 [gemini對話記錄](https://gemini.google.com/share/23600b81945f)
 
 ## 第二週習題：有限體
+
+![筆記](../image/week2.jpg)
+
 有限體 (Finite Field)，又稱伽羅瓦體 (Galois Field)，是指包含有限個元素的代數結構。
 一個集合 $F$ 若要稱為「有限體」，必須滿足：
 
@@ -249,6 +257,8 @@ $$x \equiv a^{-1} \cdot (c - b) \pmod p$$
 
 
 ## 第三週習題：幾何學：（點，線，圓）世界的建構
+
+![筆記](../image/week3.jpg)
 
 ### 定義『點，線，圓』
  - **點**：點只有位置，沒有大小（寬度、長度或厚度）。坐標表示：在二維空間中，點 $P$ 表示為 $(x, y)$。
@@ -293,6 +303,8 @@ $$\text{檢定統計量} = \frac{\text{觀測值} - \text{假設值}}{\text{標�
 [gemini對話記錄](https://gemini.google.com/share/6d02714c9a95)
 
 ## 第九週習題：資訊理論
+
+![筆記](../image/week9.jpg)
 
 1. **計算一公平銅板，連續投擲 10000 次，全部得到正面的機率。**
     ```python
@@ -421,6 +433,9 @@ $$\text{檢定統計量} = \frac{\text{觀測值} - \text{假設值}}{\text{標�
 [gemini對話記錄](https://gemini.google.com/share/be1b2598fbcb)
 
 ## 第13週習題：請寫程式求解常係數齊次常微分方程
+
+![筆記](../image/week13.jpg)
+
 方程形式：$ay'' + by' + cy = 0$
 
 已知條件：其中 $a, b, c$ 為常數，且 $a \neq 0$。
